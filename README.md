@@ -1,5 +1,5 @@
 # interactive-map-healthfacilitiesGH
-An interactive map for locating health facilities in Ghana
+An interactive map for locating health facilities in Ghana.
 
 ## Motivation:
 The main motivation behind this simple shiny app is to make it easier to locate health facilities in Ghana along with other vital information.
