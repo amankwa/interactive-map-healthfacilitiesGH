@@ -15,7 +15,7 @@ Hence when we create the shiny application we will ignore these points. I am in 
 
 
 ## Help:
-In case you observe the data projected on map is incorrect and you have more accurate or additional information that could be updated it will be great if you can email me (nanakwamester@gmail.com) and i will update the same.
+In case you observe the data projected on map is incorrect and you have more accurate or additional information that could be updated it will be great if you can email me (nanakwamester@gmail.com) and I will update the same.
 
 
 
