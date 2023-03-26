@@ -5,15 +5,18 @@ library(shinyjs)
 
 # Add a "Full Screen" button
 useShinyjs()
-fluidRow(column(12, align = "center", 
-                actionButton("fullscreen", "Full Screen", icon = icon("arrows-alt"), 
-                             style = "color: white; background-color: #4CAF50; border-color: #4CAF50")))
+ui <- function() {
+  fluidPage(
+    titlePanel("Locating Health Facilities in Ghana"),
+    navbarPage(
+      "Locate Health Facilities", id = "main",
+      tabPanel("Map", leafletOutput("bbmap", height = "600px")),
+      tabPanel("Data", DT::dataTableOutput("bb_data")),
+      tabPanel("Read Me", includeMarkdown("README.md"))
+    ),
+    div(class = "fullscreen", icon("arrows-alt"), title = "Full screen", id = "fullscreen")
+  )
+}
 
 
-navbarPage(
-  "Locate Health Facilities", id = "main",
-  tabPanel("Map", leafletOutput("bbmap", height = 1000)),
-  tabPanel("Data", DT::dataTableOutput("bb_data")),
-  tabPanel("Read Me", includeMarkdown("readme.md"))
-)
 
