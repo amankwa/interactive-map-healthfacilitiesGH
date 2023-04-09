@@ -10,7 +10,7 @@ Data for the Health Facilities application is sourced from Open Government Data 
 I have tried my best to comment and explain where necessary.
 
 ## Data limitation:
-One of the limitations of this application is that the data is not accurate. If we plot the raw data we see a few health facility locations in Ghana. There are 1,795 missing data out of the total of 3,757 entries. Out of the missing data, 898 are missing coordinates(longitudes and latitudes).
+One of the limitations of this application is that the data is not accurate. If I plot the raw data I see a few health facility locations in Ghana. There are 1,795 missing data out of the total of 3,758 entries. All the missing data are coordinates i.e 897 longitudes and 898 latitudes. 
 
 Hence when we create the shiny application we will ignore these points. I am in a process to update these points.
 
