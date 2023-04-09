@@ -1200,13 +1200,13 @@ Central ,Awutu Senya,Bawjiase Health Centre,Health Centre,Bawjiase,Government,5.
 Central ,Awutu Senya,Kasoa Health Centre,Health Centre,Kasoa,Government,5.53382,-0.42641
 Central ,Awutu Senya,Central Kasoa Clinic,Clinic,Kasoa,Private,5.54114,-0.42817
 Central ,Awutu Senya,Senya Bereku Health Centre,Health Centre,Senya Bereku,Government,5.39045,-0.49727
-Central ,Awutu Senya,Chirsty's Maternity Home,Maternity Home,Senya Bereku,Private,5.30355,-0.31051
+Central ,Awutu Senya,Chirsty's Maternity Home,Maternity Home,Senya Bereku,Private,5.39066,-0.4967
 Central ,Awutu Senya,Marfred Maternity Home,Maternity Home,,Government,,
 Central ,Awutu Senya,Mighty Crag Marternity Home,Maternity Home,,Government,,
-Central ,Awutu Senya,Wesely Maternity Home,Maternity Home,Kasoa,Government,5.32045,-0.2626
-Central ,Awutu Senya,Thinking Clinic,Clinic,Senya Bereku,Government,5.30437,-0.30544
+Central ,Awutu Senya,Wesely Maternity Home,Maternity Home,Kasoa,Government,5.53499,-0.44131
+Central ,Awutu Senya,Thinking Clinic,Clinic,Senya Bereku,Government,5.38786,-0.49811
 Central ,Awutu Senya,Adawukwa CHPS,CHPS,Adawukwa,Government,,
-Central ,Awutu Senya,Ahentia CHPS,CHPS,Ahentia,Government,5.33206,-0.31457
+Central ,Awutu Senya,Ahentia CHPS,CHPS,Ahentia,Government,5.61771,-0.54759
  Central  , Awutu Senya , Akrabon CHPS , CHPS , Akrabon , Government ,5.61691,-0.56952
 Central ,Awutu Senya,Mayenda CHPS,CHPS,Mayenda,Government,,
 Central ,Awutu Senya,Ofaakor CHPS,CHPS,Ofaakor,Government,,
@@ -1235,11 +1235,11 @@ Central ,Cape Coast Metropolitan,The Saint Maternity Home,Maternity Home,Borofoy
 Central ,Cape Coast Metropolitan,Ewim Urban Health Centre,Health Centre,Ewim,Government,5.11533,-1.24487
 Central ,Cape Coast Metropolitan,Cape Coast RCH,RCH,Aboom,Government,5.10833,-1.24717
 Central ,Cape Coast Metropolitan,Cape Coast Metropolitan Health Directorate,Metropolitan Health Directorate,Cape Coast,Government,5.10833,-1.24714
-Central ,Cape Coast Metropolitan,Aged Clinic,Clinic,Cape Coast,Government,5.0633,-1.15526
-Central ,Cape Coast Metropolitan,Micro Clinic,Clinic,Cape Coast,Government,5.06807,-1.14468
-Central ,Cape Coast Metropolitan,Brimsu CHPS,CHPS,Brimsu,Government,5.11075,-1.18226
-Central ,Cape Coast Metropolitan,Brofoyedu CHPS,CHPS,Brofoyedu,Government,5.06669,-1.14021
-Central ,Cape Coast Metropolitan,Nkanfoa CHPS,CHPS,Nkanfoa,Government,5.08409,-1.14648
+Central ,Cape Coast Metropolitan,Aged Clinic,Clinic,Cape Coast,Government,5.10629,-1.23818
+Central ,Cape Coast Metropolitan,Micro Clinic,Clinic,Cape Coast,Government,5.10621,-1.23859
+Central ,Cape Coast Metropolitan,Brimsu CHPS,CHPS,Brimsu,Government,5.19327,-1.30295
+Central ,Cape Coast Metropolitan,Brofoyedu CHPS,CHPS,Brofoyedu,Government,6.53387,-1.37383
+Central ,Cape Coast Metropolitan,Nkanfoa CHPS,CHPS,Nkanfoa,Government,5.10938,-1.29569
 Central ,Efutu Municipal,Winneba RCH,RCH,Winneba,Government,5.33849,-0.62412
 Central ,Efutu Municipal,Otoo Memorial Hospital,Clinic,Winneba,Private,5.35441,-0.62205
 Central ,Efutu Municipal,Baptist Hospital,Hospital,Winneba,CHAG,,
@@ -1249,10 +1249,10 @@ Central ,Efutu Municipal,Bethel Maternity Home,Maternity Home,Winneba,Private,5.
 Central ,Efutu Municipal,Efutu District Health Directorate,District Health Directorate,Winneba,Government,5.33815,-0.62484
 Central ,Efutu Municipal,Winneba Community Health Nurses Training School,Training Institution,Winneba,Government,5.37109,-0.64254
 Central ,Efutu Municipal,Ansaful Health Centre,Health Centre,Ansaful,Government,,
-Central ,Efutu Municipal,Winniba Health Centre,Health Centre,Winneba,Government,5.20189,-0.3727
-Central ,Efutu Municipal,Winniba Municipal Health Directorate,DHD,Winneba,Government,5.20174,-0.37295
-Central ,Efutu Municipal,University Clinic,Clinic,Winneba,Quasi-Government,5.22095,-0.37478
-Central ,Efutu Municipal,Gyangyanadze CHPS,CHPS,Gyangyanadze,Government,5.23474,-0.34361
+Central ,Efutu Municipal,Winniba Health Centre,Health Centre,Winneba,Government,5.33871,-0.62369
+Central ,Efutu Municipal,Winniba Municipal Health Directorate,DHD,Winneba,Government,5.39645,-0.59501
+Central ,Efutu Municipal,University Clinic,Clinic,Winneba,Quasi-Government,5.36957,-0.63003
+Central ,Efutu Municipal,Gyangyanadze CHPS,CHPS,Gyangyanadze,Government,5.39819,-0.57438
 Central ,Gomoa East,Buduatta Health Centre,Health Centre,Buduatta,Government,5.49698,-0.57723
 Central ,Gomoa East,Nadom Maternity Home,Maternity Home,Nyanyano,Private,5.46673,-0.41123
 Central ,Gomoa East,Nyanyano Clinic,Clinic,Nyanyano,Government,5.47036,-0.41798
@@ -1782,6 +1782,7 @@ Greater Accra,Tema Metropolitan,Caiquo Hospital,Hospital,Tema Community 10,Priva
 Greater Accra,Tema Metropolitan,Calvary Cross Clinic,Clinic,Tema Community 5,Private,5.64277,-0.01896
 Greater Accra,Accra Metropolitan,Dansoman Polyclinic,Polyclinic,Dansoman,Government,5.56134,-0.26012
 Greater Accra,Accra Metropolitan,Central Dansoman Clinic,Clinic,Dansoman,Private,5.5521,-0.26226
+Greater Accra,Accra Metropolitan,Royal MMR Hospital,Hospital,Dansoman,Private,5.5281,-0.26466
 Greater Accra,Accra Metropolitan,Central Medical Lab,Clinic,Lartebiokoshie (k'shie mamprobi rd),Private,5.54859,-0.2403
 Greater Accra,Accra Metropolitan,Christ The King Mat Home & Clinic,Maternity Home,Bubuashie (Atico last stop),Private,5.57994,-0.24725
 Greater Accra,Accra Metropolitan,Christian Medical Centre,Hospital,Nungua,CHAG,5.60656,-0.07769
