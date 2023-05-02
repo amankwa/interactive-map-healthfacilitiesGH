@@ -1,9 +1,40 @@
 library(leaflet)
 library(dplyr)
 library(DT)
+library(shiny)
 
+# Load the log file or create a new one if it doesn't exist
+log_file <- "app_log.csv"
+if (file.exists(log_file)) {
+  app_log <- read.csv(log_file, stringsAsFactors = FALSE)
+} else {
+  app_log <- data.frame(user_id = character(), search_time = double(), search_time_str = character())
+  write.csv(app_log, log_file, row.names = FALSE)
+}
+
+# Function to record search time and append to log file
+record_search_time <- function(user_id, start_time, app_log, log_file) {
+  search_time <- round(as.numeric(difftime(Sys.time(), start_time, units = "secs")), 2)
+  search_time_str <- format(Sys.time(), format="%Y-%m-%d %H:%M:%S", tz="UTC")
+  new_row <- data.frame(user_id = user_id, search_time = search_time, search_time_str = search_time_str)
+  app_log <- rbind(app_log, new_row, stringsAsFactors = FALSE)
+  write.csv(app_log, log_file, row.names = FALSE)
+  return(app_log)
+}
 
 function(input, output, session) {
+  
+  # Record the start time when the user first loads the app
+  start_time <- Sys.time()
+  
+  # Generate a unique user ID based on the session ID
+  user_id <- gsub("[^[:alnum:]]", "", session$token)
+  
+  # Define function to be called when the user's session ends
+  session$onSessionEnded(function() {
+    app_log <<- record_search_time(user_id, start_time, app_log, log_file)
+  })
+  
   
   # Import Data and clean it
   
